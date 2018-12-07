@@ -13,7 +13,7 @@ Already bundled is the following version: v3.0.4 (5/18/2016) which is in the `sr
 In your Cordova project, run the following command to install the plugin.
 
 ```
-cordova plugin add https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer.git
+cordova plugin add https://github.com/rnaufal32/cordova-plugin-brother-label-printer.git
 ```
 
 And then read [usage](#usage) below.
@@ -47,7 +47,7 @@ PT-E800W, PT-D800W, PT-E850TKW
 PT-P900W, PT-P950NW
 ```
 
-__Tested models:__ `QL-710W`, `QL-710NW`,`QL-820NWB`
+__Tested models:__ `PT-E550W`
 
 (if you have tried this with other models, please update this list and send a pull request)
 
@@ -56,7 +56,7 @@ __NOTE:__ Currently, you will need to adjust the `modelName` variable in `src/an
 
 ## Supported interfaces (by this plugin):
 ```
-Wi-Fi/Wired Ethernet (Infrastructure mode)
+Wi-Fi/Wired Ethernet (tested)
 BlueTooth?
 USB?
 ```

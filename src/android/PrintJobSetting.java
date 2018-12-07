@@ -1,7 +1,4 @@
-package com.momzor.cordova.plugin.brotherPrinter;
-
-
-import android.support.annotation.NonNull;
+package com.aanr.cordova.plugin.brotherPrinter;
 
 import com.brother.ptouch.sdk.LabelInfo;
 import com.brother.ptouch.sdk.PrinterInfo;
@@ -53,7 +50,6 @@ public class PrintJobSetting {
         return n;
     }
 
-    @NonNull
     private PrinterInfo.Port toPort(String port) {
         PrinterInfo.Port p = PrinterInfo.Port.valueOf(port);
         if (PrinterInfo.Port.NET.equals(p) || PrinterInfo.Port.BLUETOOTH.equals(port)) {

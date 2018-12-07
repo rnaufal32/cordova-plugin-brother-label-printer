@@ -1,4 +1,4 @@
-package com.momzor.cordova.plugin.brotherPrinter;
+package com.aanr.cordova.plugin.brotherPrinter;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -17,7 +17,7 @@ import org.json.JSONException;
 
 import java.util.Set;
 
-import static com.momzor.cordova.plugin.brotherPrinter.PrinterUtil.LOG_TAG;
+import static com.aanr.cordova.plugin.brotherPrinter.PrinterUtil.LOG_TAG;
 
 public class BrotherPrinter extends CordovaPlugin {
 
@@ -155,6 +155,7 @@ public class BrotherPrinter extends CordovaPlugin {
 
                     PrinterStatus status = myPrinter.printImage(bitmap);
                     callbackctx.success(String.valueOf(status.errorCode));
+
 
                 } catch (Exception e) {
                     Log.e(LOG_TAG, "!!!! Exception while printing !!!!=== ", e);

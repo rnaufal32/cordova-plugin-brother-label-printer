@@ -1,4 +1,4 @@
-package com.momzor.cordova.plugin.brotherPrinter;
+package com.aanr.cordova.plugin.brotherPrinter;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
@@ -6,7 +6,6 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
-import android.support.annotation.NonNull;
 import android.util.Base64;
 import android.util.Log;
 
@@ -78,14 +77,13 @@ public class PrinterUtil {
 
     }
 
-    @NonNull
-    protected static final Printer initPrinterProperties(com.momzor.cordova.plugin.brotherPrinter.PrintJobSetting printJobSetting) {
+    protected static final Printer initPrinterProperties(com.aanr.cordova.plugin.brotherPrinter.PrintJobSetting printJobSetting) {
         Printer myPrinter = new Printer();
         PrinterInfo myPrinterInfo = myPrinter.getPrinterInfo();
 
         myPrinterInfo.printerModel = printJobSetting.model;
         myPrinterInfo.port = printJobSetting.port;
-        myPrinterInfo.printMode = PrinterInfo.PrintMode.FIT_TO_PAPER;
+        myPrinterInfo.printMode = PrinterInfo.PrintMode.FIT_TO_PAGE;
 
         myPrinterInfo.orientation = printJobSetting.orientation;
         myPrinterInfo.paperSize = PrinterInfo.PaperSize.CUSTOM;

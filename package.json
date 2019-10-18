@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer.git"
+    "url": "git+https://github.com/rnaufal32/cordova-plugin-brother-label-printer.git"
   },
   "keywords": [
     "cordova",
@@ -22,7 +22,7 @@
   "author": "mohamed.benaida forked from gordol",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer/issues"
+    "url": "https://github.com/rnaufal32/cordova-plugin-brother-label-printer.gitissues"
   },
-  "homepage": "https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer#readme"
+  "homepage": "https://github.com/rnaufal32/cordova-plugin-brother-label-printer.git#readme"
 }
